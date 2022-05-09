@@ -9,6 +9,7 @@ export const ProfileCardDiv = styled.div`
 	justify-content: flex-start;
 	align-items: center;
 	padding: 20px;
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
 `;
 
 export const ProfileCardData = styled.div`
@@ -19,6 +20,10 @@ export const ProfileCardData = styled.div`
 	align-items: center;
 	padding: 0px 15px;
 	gap: 15px;
+
+	@media (max-width: 500px) {
+		flex-direction: column;
+	}
 `;
 
 export const ProfileAvatar = styled.img`

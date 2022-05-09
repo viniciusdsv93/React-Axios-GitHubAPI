@@ -5,10 +5,7 @@ function App() {
 	return (
 		<main>
 			<ResetCSS />
-			<Layout>
-				<div>User</div>
-				<div>Repos</div>
-			</Layout>
+			<Layout />
 		</main>
 	);
 }

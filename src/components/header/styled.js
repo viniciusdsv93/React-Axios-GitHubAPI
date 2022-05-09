@@ -3,13 +3,18 @@ import styled from "styled-components";
 export const HeaderDiv = styled.div`
 	background-color: #eee;
 	border-radius: 10px;
-	height: 70px;
+	height: auto;
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	gap: 15px;
-	padding: 10px 20px;
+	padding: 15px;
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+
+	@media (max-width: 500px) {
+		flex-direction: column;
+	}
 `;
 
 export const Input = styled.input`

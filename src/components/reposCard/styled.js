@@ -11,4 +11,5 @@ export const ReposDiv = styled.div`
 	flex-wrap: wrap;
 	gap: 20px;
 	padding: 20px;
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
 `;

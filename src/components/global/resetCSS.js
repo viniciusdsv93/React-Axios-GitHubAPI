@@ -6,7 +6,7 @@ export const ResetCSS = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 body {
